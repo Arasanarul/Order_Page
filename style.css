@@ -10,7 +10,7 @@ body{
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color:rgb(248, 3, 182);
+    background-color:#EE6593;
 
 }
 .box{
@@ -18,16 +18,17 @@ body{
     width: 600px;
     background-color: white;
     border-radius: 7px;
+    
+    box-shadow: 5px 20px 30px 10px rgb(120, 38, 83);
     padding-left: 25px;
 }
 .box1{
     display: flex;
-    /* justify-content: center; */
     margin-top: -20px;
+    box-shadow: 1px 10px 18px #888888;
 }
 .box2{
     padding-top: 10px;
-    /* padding-left: 15px; */
 }
 .box3{
     padding: 10px 25px 0px 0px ;
@@ -40,8 +41,16 @@ body{
     height: 50px;
     width: 200px;
     margin-top: 22px;
-    border-radius: 7px;
-    color: white;
-    background-color: rgb(220, 16, 169);
     
+    
+}
+.box4 button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    font-size: 18px;
+    color: white;
+    background-color: #DD2E6A;
+
 }
